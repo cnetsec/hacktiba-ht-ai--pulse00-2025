@@ -1,6 +1,34 @@
-HT-AI Hacktiba - Pulse 00 - 2025DescriçãoO HT-AI Hacktiba é uma ferramenta de análise de Common Vulnerabilities and Exposures (CVEs) que utiliza a API do CIRCL.lu para obter informações detalhadas sobre vulnerabilidades e o modelo de linguagem Gemini para fornecer análises contextuais e recomendações de segurança.FuncionalidadesAnálise de CVEs: Permite aos utilizadores inserir um ID de CVE e obter uma análise detalhada da vulnerabilidade.Descrição da Vulnerabilidade: Recupera a descrição oficial do CVE da API CIRCL.lu.Explicação Acessível: Fornece uma explicação da falha de segurança em termos fáceis de entender, direcionada a desenvolvedores iniciantes.Prevenção: Lista práticas recomendadas para evitar o tipo de vulnerabilidade em questão.Relação com OWASP SAMM: Relaciona a vulnerabilidade com práticas relevantes do OWASP Software Assurance Maturity Model (SAMM).Recomendação de Assessment: Inclui uma chamada para o assessment gratuito da Conviso para avaliar a maturidade em AppSec.Interface de Linha de Comando (CLI): A ferramenta é executada através de um CLI, proporcionando uma maneira interativa de analisar CVEs.Saída Formatada: A saída é formatada em Markdown para melhor legibilidade no terminal, utilizando a biblioteca Rich.Como UsarConfiguração:Certifique-se de ter o Python 3 instalado.Instale as dependências do projeto usando o pip:pip install requests python-dotenv rich
-Crie um arquivo .env na raiz do projeto e adicione sua chave de API do Gemini:GEMINI_API_KEY=YOUR_API_KEY
-Execução:Execute o script main.py:python main.py
+# 🧠 HT-AI CVE Gemini CIRCL
+
+**Agente Educacional Hacktiba – Pulse 00 – 2025**
+
+Este projeto é um assistente interativo que analisa vulnerabilidades com base em um ID CVE. Ele consulta a **API pública do CIRCL.lu** para obter a descrição oficial da falha e utiliza o **Gemini 2.0 Flash**, da Google, para gerar uma explicação acessível e educativa com base nas práticas do **OWASP SAMM**.
+
+---
+
+## 🎯 Objetivo
+
+> Fornecer uma explicação clara, prática e embasada sobre vulnerabilidades reais, com foco educacional e direcionado para desenvolvedores e profissionais de segurança.
+
+---
+
+## ⚙️ Tecnologias Utilizadas
+
+- Python 3.10+
+- [API CIRCL](https://cve.circl.lu/)
+- [Gemini 2.0 Flash](https://aistudio.google.com/)
+- `requests`, `python-dotenv`, `rich`
+
+---
+
+## 🚀 Instalação
+
+1. Clone o repositório ou baixe os arquivos.
+2. Instale as dependências:
+
+```bash
+pip install -r requirements.txt
+
 A ferramenta solicitará que você insira um ID de CVE. Digite o CVE desejado (por exemplo, CVE-2021-24019) e pressione Enter.Para encerrar o programa, digite sair, exit ou quit.Exemplo de Saída🧠 HT-AI Hacktiba – Pulse 00 – 2025 (CIRCL.lu + Gemini)
 Digite um CVE (ex: CVE-2021-24019) ou 'sair' para encerrar.
 > CVE-2024-23091
