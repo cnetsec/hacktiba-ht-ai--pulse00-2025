@@ -78,4 +78,3 @@ Faça o assessment gratuito da Conviso e descubra como evoluir a maturidade em A
 https://www.convisoappsec.com/pt-br/recursos/security-assessment
 
 ---
-RequisitosPython 3Bibliotecas Python: requests, python-dotenv, richChave de API do GeminiLicençaEste projeto está licenciado sob a Licença MIT.ContribuindoContribuições são bem-vindas! Sinta-se à vontade para abrir issues e enviar pull requests.
