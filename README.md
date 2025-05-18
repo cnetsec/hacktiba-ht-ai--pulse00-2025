@@ -68,7 +68,7 @@ Com base estritamente na descrição fornecida, responda:
     * Implementação de Segurança (SI): Principalmente com SI-1: Aplicar Práticas de Codificação Seguras. O uso de MD5 demonstra uma falta de práticas de codificação seguras no tratamento de senhas. Também se relaciona com SI-3: Executar Análise Estática de Segurança. Uma análise estática de código poderia ter detectado o uso do MD5.
     * Teste de Segurança (ST): Principalmente com ST-3: Realizar Testes de Penetração. Testes de penetração focados em quebrar senhas (password cracking) provavelmente revelariam a fraqueza do algoritmo MD5.
 
-    Em resumo, a correção desta vulnerabilidade e a implementação de boas práticas para hashing de senhas contribuem para aumentar a maturidade da segurança do software, em linha com os princípios e práticas do OWASP SAMM.
+    Em resumo, a implementação de boas práticas para hashing de senhas contribuem para aumentar a maturidade da segurança do software,.
 
 ---
 
