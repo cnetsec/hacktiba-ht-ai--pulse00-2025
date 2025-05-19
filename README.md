@@ -17,6 +17,7 @@ Este projeto é um assistente interativo que analisa vulnerabilidades com base e
 - Python 3.10+
 - [API CIRCL](https://cve.circl.lu/)
 - [Gemini 2.0 Flash](https://aistudio.google.com/)
+- API KEY - Gemini
 - `requests`, `python-dotenv`, `rich`
 
 ---
